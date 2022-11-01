@@ -115,15 +115,14 @@ footer {
   margin: auto;
 }
 
-/* lg */
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   .w-full {
     width: 50%;
   }
 
   .mb-5 {
-    font-size: 1.5rem; /* 24px */
-    line-height: 2rem; /* 32px */
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .image {
@@ -135,7 +134,7 @@ footer {
   }
 
   .relative {
-    margin-top: 2.5rem; /* 36px */
+    margin-top: 2.5rem;
     right: 0px;
   }
 }
