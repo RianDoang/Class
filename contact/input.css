@@ -84,12 +84,16 @@ footer {
   }
 
   nav > ul {
-    margin-right: 5%;
+    margin-right: 9%;
     justify-content: center;
     gap: 20;
   }
 
   nav > ul > li > a {
     text-align: center;
+  }
+
+  .futer-1 {
+    width: 70%;
   }
 }

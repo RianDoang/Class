@@ -80,3 +80,23 @@ footer {
   width: 80%;
   margin: auto;
 }
+
+@media (max-width: 575px) {
+  h2 {
+    text-align: center;
+  }
+
+  nav {
+    margin: auto;
+  }
+
+  nav > ul {
+    margin: auto;
+    justify-content: center;
+    margin-right: 8%;
+  }
+
+  .garis-1 {
+    width: 70%;
+  }
+}
