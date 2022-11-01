@@ -71,8 +71,25 @@ footer {
   background-color: #334155;
 }
 
-@media (min-width: 640px) {
+@media (max-width: 767px) {
   .icons {
     margin-left: 30%;
+  }
+}
+
+@media (max-width: 575px) {
+  .icons {
+    margin: auto;
+    justify-content: center;
+  }
+
+  nav > ul {
+    margin-right: 5%;
+    justify-content: center;
+    gap: 20;
+  }
+
+  nav > ul > li > a {
+    text-align: center;
   }
 }
