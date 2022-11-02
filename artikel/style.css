@@ -43,6 +43,7 @@ nav > ul > li > a:hover {
 
 .pembatas-1 > p {
   text-align: center;
+  margin-bottom: 5%;
 }
 
 .pembatas-2 > h2 {
@@ -51,6 +52,7 @@ nav > ul > li > a:hover {
 
 .pembatas-2 > p {
   text-align: start;
+  margin-bottom: 5%;
 }
 
 .pembatas-3 > h2 {
@@ -59,6 +61,7 @@ nav > ul > li > a:hover {
 
 .pembatas-3 > p {
   text-align: end;
+  margin-bottom: 5%;
 }
 
 .pembatas-4 > h2 {
@@ -67,6 +70,7 @@ nav > ul > li > a:hover {
 
 .pembatas-4 > p {
   text-align: justify;
+  margin-bottom: 5%;
 }
 
 footer {
@@ -91,12 +95,32 @@ footer {
   }
 
   nav > ul {
-    margin: auto;
     justify-content: center;
-    margin-right: 8%;
+    margin-right: 9%;
+    gap: 20;
   }
 
   .garis-1 {
     width: 70%;
+  }
+
+  .pembatas-1>h2 {
+    margin-top: 8%;
+  }
+
+  .pembatas-1 > p {
+    margin-bottom: 13%;
+  }
+
+  .pembatas-2 > p {
+    margin-bottom: 13%;
+  }
+
+  .pembatas-3 > p {
+    margin-bottom: 13%;
+  }
+
+  .pembatas-4 > p {
+    margin-bottom: 13%;
   }
 }
